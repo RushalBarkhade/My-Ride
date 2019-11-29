@@ -1,0 +1,61 @@
+<resources>
+    <string name="api_key">AIzaSyDbjYjhGVVB8cDggTxCNxfGTE-E41GxvMo</string>
+    <string name="app_name">My Ride</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Name</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="ride_cost">Ride Cost</string>
+    <string name="username">UserName</string>
+    <string name="source">Source</string>
+    <string name="Destination">Destination</string>
+    <string name="source_time">Source\nTime</string>
+    <string name="Destination_time">Destination\nTime</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="recent_searches">Recent Searches</string>
+    <string name="top_locations">Top Locations</string>
+    <string name="place_name">Place_name</string>
+    <string name="search">Search</string>
+    <string name="enter_source">ENTER SOURCE</string>
+    <string name="enter_destination">ENTER DESTINATION</string>
+    <string name="date">DATE</string>
+    <string name="root">ROOT</string>
+    <string name="want_ride">Want Ride</string>
+    <string name="ask_ride">Ask Ride</string>
+    <string-array name="top_locations">
+        <item>Mumbai</item>
+        <item>Delhi</item>
+        <item>Kolkata</item>
+        <item>Bengaluru</item>
+        <item>Hyderabad</item>
+        <item>Chennai</item>
+        <item>Ahmedabad</item>
+        <item>Pune</item>
+        <item>Surat</item>
+        <item>Delhi</item>
+        <item>Jaipur</item>
+        <item>Lucknow</item>
+        <item>Kanpur</item>
+        <item>Nagpur</item>
+        <item>Indore</item>
+        <item>Bhopal</item>
+    </string-array>
+    <string-array name="top_root">
+        <item>Hyderabad to\nBangalore</item>
+        <item>Bangalore to\nChennai</item>
+        <item>Pune to\nBangalore</item>
+        <item>Pune To\nHyderabad</item>
+        <item>Pune To\nShirdi</item>
+        <item>Mumbai To\nPune</item>
+        <item>Pune To\nNagpur</item>
+        <item>Pune To\nAurangabad</item>
+        <item>Nagpur To\nAurangabad</item>
+        <item>Mumbai To\nNagpur</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

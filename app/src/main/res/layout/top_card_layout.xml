@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="?attr/colorPrimaryDark"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="10dp"
+    android:elevation="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:padding="8dp">
+        <ImageView
+            android:id="@+id/place_icon"
+            android:contentDescription="@string/place_name"
+            android:src="@drawable/ic_location_on_black_24dp"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:id="@+id/place_name"
+            android:text="@string/place_name"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
