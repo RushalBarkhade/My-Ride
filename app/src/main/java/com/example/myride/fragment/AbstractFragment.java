@@ -52,12 +52,13 @@ abstract class AbstractFragment extends Fragment {
     }
 
     protected abstract int getFragmentLayout();
-        RecyclerView setRecycleView(View view) {
+
+    RecyclerView setRecycleView(View view) {
         RecyclerView recyclerView = view.findViewById(R.id.ride_details_recycle_view);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         progressDialog = new ProgressDialog(getContext());
-        progressDialog.setMessage("Loading Data from Firebase Database");
+        progressDialog.setMessage("Loading Data");
         progressDialog.show();
         return recyclerView;
     }
