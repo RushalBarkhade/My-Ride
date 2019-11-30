@@ -10,6 +10,7 @@ import com.example.myride.fragment.UserFragment;
 import com.example.myride.fragment.UserPhotosFragment;
 import com.example.myride.fragment.UserReviewFragment;
 import com.example.myride.utils.ViewPagerAdapter;
+import com.example.myride.verification.LicenceVerification;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.tabs.TabLayout;
 
@@ -40,6 +41,13 @@ public class UserActivity extends AbstractActivity {
         adapter.addFragments(new UserFragment(),"Profile");
         adapter.addFragments(new UserPhotosFragment(),"Photos");
         adapter.addFragments(new UserReviewFragment(),"Reviews");
+        service.execute(new Runnable() {
+           @Override
+           public void run() {
+               LicenceVerification verification= new LicenceVerification("MH1920140017928","20-05-1993");
+               
+           }
+       });
 
         viewPager.setAdapter(adapter);
 
