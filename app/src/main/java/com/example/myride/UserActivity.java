@@ -34,12 +34,12 @@ private CollapsingToolbarLayout collapsingToolbarLayout;
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapsing_toolbar_layout);
-        collapsingToolbarLayout.setTitle("Collapsing Tool Bar");
-
-        // Set collapsing tool bar image.
-        CircleImageView collapsingToolbarImageView = findViewById(R.id.collapsing_toolbar_image_view);
-        collapsingToolbarImageView.setImageResource(R.drawable.login_bk);
+//        CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapsing_toolbar_layout);
+//        collapsingToolbarLayout.setTitle("Collapsing Tool Bar");
+//
+//        // Set collapsing tool bar image.
+//        CircleImageView collapsingToolbarImageView = findViewById(R.id.collapsing_toolbar_image_view);
+//        collapsingToolbarImageView.setImageResource(R.drawable.login_bk);
 
 
 
