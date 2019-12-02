@@ -1,6 +1,6 @@
 package com.example.myride.verification;
 
-import com.example.myride.POJOForLicenceInfo;
+import com.example.myride.pojo.POJOForLicenceInfo;
 import com.squareup.okhttp.Call;
 import com.squareup.okhttp.Callback;
 import com.squareup.okhttp.MediaType;

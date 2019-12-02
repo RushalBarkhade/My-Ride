@@ -96,7 +96,7 @@
             android:foreground="?android:attr/selectableItemBackground"
             android:text="SIGN UP"
             android:textAllCaps="false"
-            android:textColor="#FE5295"
+            android:textColor="#ffffff"
             android:textSize="17sp"/>
         <TextView
             android:id="@+id/signIn_text"

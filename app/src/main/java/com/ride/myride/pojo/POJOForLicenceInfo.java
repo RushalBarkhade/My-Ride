@@ -1,4 +1,4 @@
-package com.example.myride;
+package com.example.myride.pojo;
 
 public class POJOForLicenceInfo {
     private String userName;

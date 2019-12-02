@@ -38,14 +38,13 @@
         android:layout_marginBottom="50dp"
         android:layout_alignParentBottom="true"
         android:gravity="center">
-
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edit_text_middle"
             android:hint="Email"
             android:inputType="textEmailAddress"
-            android:padding="15dp" />
+            android:padding="15dp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,7 +60,7 @@
             android:foreground="?android:attr/selectableItemBackground"
             android:text="LOGIN"
             android:textAllCaps="false"
-            android:textColor="#FE5295"
+            android:textColor="#ffffff"
             android:textSize="17sp"/>
     </LinearLayout>
 </RelativeLayout>
